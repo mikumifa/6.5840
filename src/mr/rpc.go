@@ -23,8 +23,7 @@ const (
 	MapPhase    AssignPhase = 0
 	ReducePhase AssignPhase = 1
 	DonePhase   AssignPhase = 2
-
-	// TmpMapFilePath mkdir -p /tmp/tmp_map_file /tmp/tmp_reduce_file /tmp/final_map_file /tmp/final_reduce_file
+	// mkdir -p /tmp/tmp_map_file/  /tmp/tmp_reduce_file/ /tmp/final_map_file/
 	TmpMapFilePath      = "/tmp/tmp_map_file/"
 	TmpReduceFilePath   = "/tmp/tmp_reduce_file/"
 	FinalMapFilePath    = "/tmp/final_map_file/"
